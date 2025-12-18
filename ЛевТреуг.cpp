@@ -1,3 +1,5 @@
+// Метод левых треугольников
+
 #include <iostream>
 #include <cmath>
 
@@ -8,7 +10,7 @@ double Integ(double x) {
     return sin(x);
 }
 
-// Функция метода левых прямоугольников
+// Функция 
 double PramUgol(double a, double b, double eps) {
     double I0 = 0;   
     double I1 = INFINITY; // из cmath.h означает бесконечное значение
@@ -53,4 +55,5 @@ int main() {
     double result = PramUgol(a, b, eps);
     
     return 0;
+
 }
